@@ -1,0 +1,67 @@
+@import url(../assets/root.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style-type: none;
+}
+
+.font-black {
+    color: #32352C;
+}
+/* ---------------------padding-margin---------------------------------------- */
+
+.pb-132 {
+    padding-bottom: 132px;
+}
+.pt-78{
+    padding-top: 78px;
+}
+.pb-60{
+    padding-bottom: 60px;
+}
+.py-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.pt-49{
+    padding-top: 49px;
+}
+/* ---------------------padding-margin---------------------------------------- */
+.top-64 {
+    top: 64%;
+}
+
+.left-4 {
+    left: 4%;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.bg-img-partner {
+    background-image: url(./images/partnership-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 163px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.00) 0%, #FFF 51.56%, rgba(255, 255, 255, 0.00) 100%);
+}
+.max-w-890{
+    max-width: 890px;
+}
+.max-w-453{
+    max-width: 453px;
+}
+@media (min-width:992px) {
+    .py-50 {
+        padding-top: 114px;
+        padding-bottom: 114px;
+    }
+}
