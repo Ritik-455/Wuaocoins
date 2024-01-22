@@ -131,6 +131,23 @@
     line-height: var(--lh-215);
 }
 
+@media(min-width:320px) {
+    :root {
+        /* font---size--here */
+        --fs-sm: 14px;
+        --fs-md: 16px;
+        --fs-lg: 11px;
+        --fs-xl: 20px;
+        --fs-2xl: 27.955px;
+        --fs-3xl: 30px;
+        --fs-4xl: 32.145px;
+        --fs-5xl: 40px;
+        --fs-6xl: 50.516px;
+        --fs-6xl: 65px;
+    }
+
+
+}
 @media(min-width:576px) {
     :root {
         /* font---size--here */

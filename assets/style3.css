@@ -1,0 +1,259 @@
+@import url(./root.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+
+.container2 {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.container3 {
+    max-width: 1360.79px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+/*  Whitepaper-section */
+.Whitepaper-bg-img {
+    background-image: url(./images/Whitepaper-bg-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.we-went-text {
+    max-width: 577.963px;
+}
+
+
+.read_btn {
+    display: inline-flex;
+    height: 46px;
+    padding: 11px 21px;
+    border-radius: 40px;
+    background: var(--bhjb, #FFF);
+    gap: 10px;
+    color: #FFA83B;
+    border: 2px solid #FFF;
+}
+
+.read_btn:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.ellips_position {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+/*  Whitepaper-section */
+/* RoadMap_phera */
+.RoadMap_phera {
+    max-width: 672px;
+}
+
+.pb-75 {
+    padding-bottom: 75px;
+}
+
+.road_mapbox {
+    width: 206.87px;
+    height: 179.847px;
+    border-radius: 14.91px;
+    padding: 8.39px 11.18px;
+
+}
+
+.roadmap_yellow_box {
+    background: linear-gradient(0deg, #EFB93B 0%, #EFB93B 100%), #D9D9D9;
+}
+
+.roadmap_box_red {
+    background: linear-gradient(0deg, #E0480A 0%, #E0480A 100%), linear-gradient(0deg, #EFB93B 0.02%, #EBA43B 53.72%, #E9973B 100.15%), #D9D9D9;
+}
+
+.roadmap_box_liteblue {
+    background: #4D86DC;
+}
+
+.roadmap_box_blue {
+    background: #364EC6;
+}
+
+.roadmap_box_volit {
+    background: linear-gradient(0deg, #6A3DAD 0%, #6A3DAD 100%), linear-gradient(90deg, #2D367D -0.02%, #384CB1 99.91%);
+
+}
+
+.roadmap_box_pink {
+    background: linear-gradient(0deg, #ED5C83 0%, #ED5C83 100%), linear-gradient(90deg, #2D367D -0.02%, #384CB1 99.91%);
+
+
+}
+
+.roadmap_left_ellips{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.Roadmap_right_ellips{
+    position: absolute;
+    bottom: -25%;
+    right: 0;
+}
+.roadmap_box_text {
+    max-width: 206.87px;
+}
+
+.gap-31 {
+    gap: 31.18px;
+}
+.pb-141{
+    padding-bottom: 141px;
+}
+/* RoadMap_phera */
+/* Public Sale */
+.public_sale_bg_img{
+    background-image: url(./images/Whitepaper-bg-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pt-110{
+    padding-top: 110px;
+}
+.pb-58{
+    padding-bottom: 58px;
+}
+.public_sale_text{
+
+    max-width: 609px;
+}
+.counting_box{
+    width: 106px;
+    height: 106px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+.mb-80{
+    margin-bottom: 80px;
+}
+/* Public Sale */
+@media (max-width:768px) {
+    .w_100 {
+        width: 100%;
+    }
+   
+}
+
+@media (min-width:320px) {
+    .Whitepaper_absolute {
+        position: unset;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .Whitepaper_absolute_2 {
+        position: unset;
+        display: flex;
+        justify-content: center;
+
+    }
+    .w_sm_100{
+        width: 100%;
+    }
+    .mb-364{
+        margin-bottom: 40px;
+    }
+    .roadmap_left_ellips{
+        display: none;
+
+    }
+    .Roadmap_right_ellips{
+        display: none;
+    }
+    .roadmap_vactor_img{
+        position: absolute;
+        right: 10%;
+        top: 10%;
+    }
+    .flex_wrap{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+@media (min-width:576px) {
+     .w_sm_100{
+        width: unset;
+    }
+    .roadmap_left_ellips{
+    display: block;
+
+    }
+    .Roadmap_right_ellips{
+        display: block;
+    }
+    .flex_wrap{
+        flex-direction: unset;
+    }
+}
+
+@media (min-width:768px) {
+     .w_sm_100{
+        width: unset;
+    }
+}
+
+@media (min-width:992px) {
+     .w_sm_100{
+        width: unset;
+    }
+}
+
+@media (min-width:1220px) {
+     .w_sm_100{
+        width: unset;
+    }
+   
+    
+}
+
+@media (min-width:1320px) {
+    .Whitepaper_absolute {
+        position: absolute;
+        top: 14%;
+        left: 0;
+    }
+
+    .Whitepaper_absolute_2 {
+        position: absolute;
+        top: 14%;
+        right: 0;
+    }
+    .pt-121 {
+        padding-top: 121px;
+    }
+    .mb-364 {
+        margin-bottom: 364px;
+    }
+}
+@media (min-width:1420px) {}
