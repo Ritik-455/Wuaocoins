@@ -157,12 +157,12 @@
     margin-bottom: 80px;
 }
 .buy_btn {
-    display: inline-flex;
+  
     height: 51px;
     padding: 11px 21px;
     border-radius: 40px;
     background: var(--bhjb, #FFF);
-    gap: 10px;
+  line-height: normal;
     color: #FFA83B;
     border: 2px solid #FFF;
     transition: linear 300ms;

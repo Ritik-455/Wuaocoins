@@ -35,9 +35,10 @@
     padding-top: 49px;
 }
 
-.pt-45{
+.pt-45 {
     padding-top: 45px;
 }
+
 .mt-70 {
     margin-top: 70px;
 }
@@ -97,9 +98,11 @@
     transform: translateY(-10px);
     transition: all 300ms linear;
 }
-.transition-300{
+
+.transition-300 {
     transition: all 300ms linear;
 }
+
 .footer-line {
     width: 100%;
     height: 1px;
@@ -125,11 +128,13 @@
     left: 25%;
 
 }
-.position-absolute7{
+
+.position-absolute7 {
     position: absolute;
     bottom: -28%;
     right: 0%;
 }
+
 dl,
 ol,
 ul {
@@ -192,6 +197,10 @@ ul {
 
 .pb_50 {
     padding-bottom: 50px;
+}
+
+.pt-82 {
+    padding-top: 82px;
 }
 
 /* margin---paddding----here */
@@ -436,6 +445,7 @@ ul {
 .purple-box3:hover {
     transform: translateX(10px);
 }
+
 .purple-box4 {
     transition: 300ms linear;
 }
@@ -517,11 +527,20 @@ ul {
     padding-left: 12px;
     padding-right: 12px;
 }
+
+.container4 {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 /*  Whitepaper-section */
 .Whitepaper-bg-img {
     background-image: url(./images/Whitepaper-bg-img.png);
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
@@ -531,14 +550,15 @@ ul {
 
 
 .read_btn {
-    display: inline-flex;
+
     height: 46px;
     padding: 11px 21px;
     border-radius: 40px;
     background: var(--bhjb, #FFF);
-    gap: 10px;
+    line-height: normal;
     color: #FFA83B;
     border: 2px solid #FFF;
+    transition: linear 300ms;
 }
 
 .read_btn:hover {
@@ -549,8 +569,9 @@ ul {
 .ellips_position {
     position: absolute;
     top: 25%;
-    left: 25%;
+    left: 0%;
 }
+
 /*  Whitepaper-section */
 /* RoadMap_phera */
 .RoadMap_phera {
@@ -566,7 +587,12 @@ ul {
     height: 179.847px;
     border-radius: 14.91px;
     padding: 8.39px 11.18px;
+    transition: linear 300ms;
 
+}
+
+.road_mapbox:hover {
+    box-shadow: -4px 6px 23px 7px rgba(0, 0, 0, 0.29);
 }
 
 .roadmap_yellow_box {
@@ -596,17 +622,19 @@ ul {
 
 }
 
-.roadmap_left_ellips{
+.roadmap_left_ellips {
     position: absolute;
     top: 0;
     left: 0;
 
 }
-.Roadmap_right_ellips{
+
+.Roadmap_right_ellips {
     position: absolute;
     bottom: -25%;
     right: 0;
 }
+
 .roadmap_box_text {
     max-width: 206.87px;
 }
@@ -614,40 +642,43 @@ ul {
 .gap-31 {
     gap: 31.18px;
 }
-.pb-33{
+
+.pb-33 {
     padding-bottom: 33px;
 }
+
 /* RoadMap_phera */
 /* Public Sale */
-.public_sale_bg_img{
+.public_sale_bg_img {
     background-image: url(./images/Whitepaper-bg-img.png);
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-.pt-110{
+
+.pt-110 {
     padding-top: 110px;
 }
-.pb-58{
+
+.pb-58 {
     padding-bottom: 58px;
 }
-.public_sale_text{
+
+.public_sale_text {
 
     max-width: 609px;
 }
-.counting_box{
-    width: 106px;
-    height: 106px;
-    border: 1px solid white;
-    border-radius: 10px;
-}
-.pb-50{
+
+
+.pb-50 {
     padding-bottom: 50px;
 }
-.mb-80{
+
+.mb-80 {
     margin-bottom: 80px;
 }
-.to-top-btn{
+
+.to-top-btn {
     height: 58px;
     width: 58px;
     background-color: #FFA13B;
@@ -658,6 +689,7 @@ ul {
     right: 2%;
     padding: 10px 10px;
 }
+
 .line_nav {
     position: relative;
 }
@@ -682,7 +714,7 @@ ul {
     .w_100 {
         width: 100%;
     }
-   
+
 }
 
 @media (min-width:320px) {
@@ -699,28 +731,53 @@ ul {
         justify-content: center;
 
     }
-    .w_sm_100{
+
+    .w_sm_100 {
         width: 100%;
     }
-    .mb-364{
+
+    .mb-364 {
         margin-bottom: 40px;
     }
-    .roadmap_left_ellips{
+
+    .roadmap_left_ellips {
         display: none;
 
     }
-    .Roadmap_right_ellips{
+
+    .Roadmap_right_ellips {
         display: none;
     }
-    .roadmap_vactor_img{
-        position: absolute;
-        right: 10%;
-        top: 10%;
+
+    .roadmap_vactor_img {
+        display: none;
     }
-    .flex_wrap{
+
+    .flex_wrap {
         flex-direction: column;
         align-items: center;
     }
+
+    .pt-121 {
+        padding-top: 0;
+    }
+
+    .flex_wrap2 {
+        flex-wrap: wrap;
+    }
+
+    .img_width {
+        max-width: 100%;
+    }
+
+    .counting_box {
+        width: 55px;
+        max-width: 100%;
+        height: 55px;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
 }
 
 @media (min-width:576px) {
@@ -731,27 +788,44 @@ ul {
     .pb_180 {
         padding-bottom: 80px;
     }
-    .w_sm_100{
+
+    .w_sm_100 {
         width: unset;
     }
-    .roadmap_left_ellips{
-    display: block;
+
+    .roadmap_left_ellips {
+        display: block;
 
     }
-    .Roadmap_right_ellips{
+
+    .Roadmap_right_ellips {
         display: block;
     }
-    .flex_wrap{
+
+    .flex_wrap {
         flex-direction: unset;
     }
+
+   
+
+    .counting_box {
+        width: 106px;
+        height: 106px;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
 }
+
 @media (min-width:768px) {
     .buy_btn {
         padding: 11px 21px;
     }
-    .w_sm_100{
+
+    .w_sm_100 {
         width: unset;
     }
+
 }
 
 @media (min-width:992px) {
@@ -759,6 +833,7 @@ ul {
         padding-top: 114px;
         padding-bottom: 114px;
     }
+
     .bg-img {
         background-image: url("./images/bg-hero-img.png");
         background-repeat: no-repeat;
@@ -815,14 +890,34 @@ ul {
     .pt-40 {
         padding-top: 25px;
     }
-    .pt-45{
+
+    .pt-45 {
         padding-top: 105px;
     }
-    .w_sm_100{
+
+    .w_sm_100 {
         width: unset;
     }
-    .pb-33{
+
+    .pb-33 {
         padding-bottom: 141px;
+    }
+
+    .flex_wrap2 {
+        flex-wrap: unset;
+    }
+
+    .img_width {
+        max-width: 340px;
+
+    }
+    .pt-121 {
+        padding-top: 121px;
+    } .roadmap_vactor_img {
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        display: block;
     }
 }
 
@@ -938,6 +1033,7 @@ ul {
     }
 
 }
+
 @media (min-width:1320px) {
     .Whitepaper_absolute {
         position: absolute;
@@ -950,18 +1046,21 @@ ul {
         top: 14%;
         right: 0;
     }
-    .pt-121 {
-        padding-top: 121px;
-    }
+
     .mb-364 {
         margin-bottom: 265px;
     }
 }
 
 @media (min-width:1220px) {
-    .w_sm_100{
-       width: unset;
-   }
-  
-   
+    .w_sm_100 {
+        width: unset;
+    }
+
+    .img_width {
+        max-width: unset;
+
+    }
+
+
 }

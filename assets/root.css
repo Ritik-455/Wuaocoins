@@ -4,14 +4,14 @@
     /* font---size--here */
     --fs-sm: 14px;
     --fs-md: 14px;
-    --fs-lg: 18px;
+    --fs-lg: 15px;
     --fs-xl: 20px;
     --fs-2xl: 27.955px;
     --fs-3xl: 22px;
     --fs-4xl: 32.145px;
     --fs-5xl: 35px;
-    --fs-5xl: 46px;
-    --fs-6xl: 50.516px;
+    --fs-5xl: 30px;
+    --fs-6xl: 30px;
     --fs-7xl: 35px;
 
     /* font-weight-here */
@@ -131,7 +131,11 @@
 .lh-215 {
     line-height: var(--lh-215);
 }
-
+@media (min-width:576px) {
+    :root {
+        /* font---size--here */
+        --fs-6xl: 50.5px;
+    }}
 
 @media (min-width:768px) {
     :root {
