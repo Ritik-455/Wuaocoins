@@ -30,7 +30,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.pt-82{
+    padding-top: 82px;
+}
 .we-went-text {
     max-width: 577.963px;
 }
@@ -252,8 +254,8 @@
     .pt-121 {
         padding-top: 121px;
     }
-    .mb-364 {
-        margin-bottom: 364px;
+    .mb-200 {
+        margin-bottom: 200px;
     }
 }
-@media (min-width:1420px) {}
+
