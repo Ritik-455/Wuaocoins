@@ -7,13 +7,10 @@
     --fs-lg: 18px;
     --fs-xl: 20px;
     --fs-2xl: 27.955px;
-    --fs-3xl: 30px;
+    --fs-3xl: 22px;
     --fs-4xl: 32.145px;
-<<<<<<< HEAD
     --fs-5xl: 35px;
-=======
     --fs-5xl: 46px;
->>>>>>> 799452c13d8754d8aa129b756b2ebd1217da3332
     --fs-6xl: 50.516px;
     --fs-7xl: 35px;
 
@@ -135,46 +132,6 @@
     line-height: var(--lh-215);
 }
 
-<<<<<<< HEAD
-@media(min-width:320px) {
-    :root {
-        /* font---size--here */
-        --fs-sm: 14px;
-        --fs-md: 16px;
-        --fs-lg: 11px;
-        --fs-xl: 20px;
-        --fs-2xl: 27.955px;
-        --fs-3xl: 30px;
-        --fs-4xl: 32.145px;
-        --fs-5xl: 40px;
-        --fs-6xl: 50.516px;
-        --fs-6xl: 65px;
-    }
-
-
-}
-@media(min-width:576px) {
-=======
-@media (min-width:576px) {
->>>>>>> 56e3782f460c7c7855ecf3495f32b993d00e48c2
-    :root {
-        /* font---size--here */
-        --fs-sm: 14px;
-        --fs-md: 16px;
-        --fs-lg: 18px;
-        --fs-xl: 20px;
-        --fs-2xl: 27.955px;
-        --fs-3xl: 30px;
-        --fs-4xl: 32.145px;
-        --fs-5xl: 50px;
-        --fs-6xl: 50.516px;
-        --fs-7xl: 65px;
-    }
-
-
-
-
-}
 
 @media (min-width:768px) {
     :root {
