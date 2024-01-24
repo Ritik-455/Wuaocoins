@@ -103,6 +103,12 @@
     transition: all 300ms linear;
 }
 
+.footer-line2 {
+    width: 100%;
+    height: 1px;
+    opacity: 0.3;
+    background: #9F9F9F;
+}
 
 .position-absolute3 {
     position: absolute;
