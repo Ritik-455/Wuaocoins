@@ -103,12 +103,6 @@
     transition: all 300ms linear;
 }
 
-.footer-line {
-    width: 100%;
-    height: 1px;
-    opacity: 0.3;
-    background: #9F9F9F;
-}
 
 .position-absolute3 {
     position: absolute;
@@ -118,7 +112,7 @@
 
 .positionabsolute4 {
     position: absolute;
-    bottom: -12%;
+    bottom: -3%;
     right: 0%;
 }
 
@@ -715,6 +709,26 @@ ul {
 }
 
 .line_nav:hover::after {
+    width: 100%;
+    right: 0;
+}
+
+.footer-line {
+    position: relative;
+}
+
+.footer-line::after {
+    position: absolute;
+    content: "";
+    bottom: -15%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #FFA93B;
+    transition: all 0.3s linear;
+}
+
+.footer-line:hover::after {
     width: 100%;
     right: 0;
 }
